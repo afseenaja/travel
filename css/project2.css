@@ -111,6 +111,45 @@ h2{
     font-size: xx-large;
     padding: 10px;
 }
-/* #section4 .devicon i{
-    padding: 10px;
-} */
+@media only screen and (max-width: 576px)
+{
+    .row1 .col-sm-9{
+        /* width: 100%; */
+        margin-left: 8.5em;
+    }
+    .col-sm-3{
+        position: relative;
+    }
+
+}
+@media only screen and (max-width: 768px)and  (min-width:576px)
+{
+    .row1 .col-sm-9{
+        /* width: 100%; */
+        margin-left: 16em;
+    }
+
+
+}
+@media only screen and (min-width:900 )and(max-width: 1200px)
+{
+    .row1 .col-sm-9{
+        /* width: 100%; */
+        margin-left: 20em;
+    }
+    .col-sm-3{
+        position: relative;
+    }
+
+}
+@media only screen and (min-width: 1250px)
+{
+    .row1 .col-sm-9{
+        /* width: 100%; */
+        margin-left: 22em;
+    }
+    .col-sm-3{
+        /* position: absolute; */
+    }
+
+}
