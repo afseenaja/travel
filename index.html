@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/project1.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+    <!-- googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!-- fa fa -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <div class="row1">
+        <div class="col1">
+            <div class="row">
+                <div class="col-sm-3">
+                <div id="menu"></div>
+                <div id="menu"></div>
+                <div id="menu"></div>
+            </div>
+            <div class="col-sm-9">
+                <h3>PHOTOSEC</h3>
+            </div>
+        </div>
+        <div class="studio">
+            <h1>PHOTOGRAPHY<br>STUDIO</h1>
+            <input type="button" value="READ MORE">
+        </div>
+        </div>
+        <div class="col2">
+            <img src="images/ppic1.jpg" alt="man with camera">
+        </div>
+    </div>
+    <div class="row2">
+        <div class="col1">
+            <img src="images/OIP.jpeg" alt="man with camera">
+        </div>
+        <div class="col2">
+            <h1>ABOUT US<hr class="line"></h1>
+            <p>It is long established fact that a reader will be distracted by the readable content of the page when looking at its layout. The point of using loremlt is a long established fact that the reader will be distracted by the readable content of the page when looking at its layout. The point of using layout</p>
+            <input type="button" value="READ MORE">
+        </div>
+    </div>
+    <div>
+        
+    </div>
+    <div class="row3">
+    <div class="container-fluid">
+        <h2 style="text-align: center;">PORTFOLIO<hr></h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="row">
+                        <img src="images/ppic2.jpeg" alt="">
+                    </div>
+                     <div class="row">
+                         <img src="images/ppic3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row">
+                        <img src="images/ppic4.jpg" alt="" style="height: 600px;">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row">
+                        <img src="images/ppic5.jpg" alt="">
+                        <img src="images/ppic6.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="btn">
+            <input type="button" value="SEE MORE" style="text-align: center;">
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="row4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h1>OUR CREATIVE TEAM<hr></h1>
+                    <p>The point of using loremlt is a long established fact that the reader will be distracted by a readable content of the page when looking at the layout. The point of using lorem</p>
+                </div>
+                <div class="col-sm-8">
+                    <div class="row1">
+                        <div class="col-sm-6">
+                            <img src="images/g.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="images/ppic8.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <div class="col-sm-6">
+                            <img src="images/ppic9.jpg" alt=""  class="im">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div id="googleMap" style="width:100%;height:100%;"></div>
+
+                </div>
+                <div class="col-sm-4">
+                    <h1>GET IN TOUCH<hr><br></h1>
+                    <h3><i class="fa fa-map-marker"></i>    Location</h3>
+                    <h3><i class='fa fa-phone'></i>   +01 1234567890</h3>
+                    <h3><i class='fa fa-envelope'></i>    Demo@gmail.com</h3>
+                    <br>
+                    <a href="" class="fa fa-facebook" style="font-size:large; color: white;"></a>
+                    <a href="#" class="fa fa-twitter" style="font-size:large;color: white;"></a>
+                    <a href="#" class="fa fa-instagram" style="font-size: large;color: white;"></a>
+                    <a href="#" class="fa fa-google" style="font-size: large;color: white;"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row6">
+        <div class="container-fluid">
+            <div class="col-sm-8">
+                <h5>2023 All rights reserved. design by free html Templates</h5>
+            </div>
+            <div class="col-sm-1">
+                <h5>Home</h5>
+            </div>
+            <div class="col-sm-1">
+                <h5>About</h5>
+            </div>
+            <div class="col-sm-1">
+                <h5>Portfolio</h5>
+            </div>
+            <div class="col-sm-1">
+                <h5>Team</h5>
+            </div>
+        </div>
+    </div>
+    <!-- googlemap api -->
+
+    <script>
+        function myMap() {
+        var mapProp= {
+          center:new google.maps.LatLng(12.507628449403962, 74.99543919430869),
+          zoom:15,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+    </script>
+</body>
+</html>
